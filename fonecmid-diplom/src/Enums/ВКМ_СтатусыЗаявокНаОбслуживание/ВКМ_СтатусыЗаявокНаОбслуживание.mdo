@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f247f313-1481-4a4c-b6e4-24e19203bfe0">
+  <producedTypes>
+    <refType typeId="8b775625-e215-4130-ae35-0478e06d43de" valueTypeId="3888830d-15e1-4b44-817c-c923650f3177"/>
+    <listType typeId="b200bb7f-8bbe-4285-992c-ac9fa0683904" valueTypeId="ce896b0f-6293-4c9b-881d-f49a00931052"/>
+    <managerType typeId="67c9821b-a4ea-4b40-9ab4-bba7c3273370" valueTypeId="b956145c-a85c-4e14-8e08-4e5d9b08306a"/>
+  </producedTypes>
+  <name>ВКМ_СтатусыЗаявокНаОбслуживание</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ статусы заявок на обслуживание</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e6821e6-27d8-45c4-a815-e0ee3065dc65">
+    <name>НазначенОтветственному</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначен ответственному</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0796d258-e509-450b-8673-b61985732c44">
+    <name>Открыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="384ef23d-72f3-47d1-9e01-70cade748ab7">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86b9c756-6329-4901-82fc-9ca58b1430ae">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfc9120d-a73e-4d5f-a04d-9e10addda863">
+    <name>ВнесеныКорректировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внесены корректировки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74141f54-b0b3-47be-823d-1705af693ebc">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

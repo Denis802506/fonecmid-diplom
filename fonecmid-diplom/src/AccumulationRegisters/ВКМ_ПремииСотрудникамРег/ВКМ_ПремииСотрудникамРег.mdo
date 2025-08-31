@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c0bc2d7-3338-427b-baee-326b030da94d">
+  <producedTypes>
+    <selectionType typeId="402e53a1-ca7d-47f4-8319-34b1df0a63e7" valueTypeId="78b757af-5c0b-4da9-ba47-f177002069d5"/>
+    <listType typeId="67ccc364-0534-4bfb-b246-0063006ac541" valueTypeId="80456c94-3b8d-48f0-8508-513ae0eabf58"/>
+    <managerType typeId="2f90d5a0-4de6-4fef-aad2-8977e10b0283" valueTypeId="b931410a-63fe-4d07-be9f-bd076d6f08c5"/>
+    <recordSetType typeId="376375a4-a61b-4c64-86ea-2aa894670fb7" valueTypeId="70742f4e-6bc0-4556-81de-e63c25b441fc"/>
+    <recordKeyType typeId="b8c1f013-2b2c-4c34-adb6-894867812273" valueTypeId="fa146248-a72b-41cc-bb4f-d2444b8ed879"/>
+    <recordType typeId="0b27721e-2e45-4a8d-b7c6-2d7fe163b87a" valueTypeId="1addd132-a3d5-4081-b226-9c0621a70078"/>
+  </producedTypes>
+  <name>ВКМ_ПремииСотрудникамРег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премии сотрудникам Рег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="69cd55d7-7cb1-4d6b-96e3-0e87d9dcb17a">
+    <name>Начисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0fde2dc0-9c9b-4139-887d-21bce03261b7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

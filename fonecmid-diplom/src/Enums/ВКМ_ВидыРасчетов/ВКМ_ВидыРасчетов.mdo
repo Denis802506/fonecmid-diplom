@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83bde2bb-89d2-416f-95f6-4b93c4a65519">
+  <producedTypes>
+    <refType typeId="8a2a6ad9-5b0c-49f6-951a-cb9c35d6696f" valueTypeId="3b1266cb-a221-41b7-bfa4-3d6ab49b148c"/>
+    <listType typeId="d2ed9541-fee6-44ec-9092-11573551d1bb" valueTypeId="5b38a516-9c5c-4a3e-80d3-8e507b7e9003"/>
+    <managerType typeId="087d7cad-ec2f-471c-a849-5ccdd96d5ef6" valueTypeId="6196e314-1290-4996-a54e-d4fbeb32dc68"/>
+  </producedTypes>
+  <name>ВКМ_ВидыРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды расчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce8a1acb-eeff-4411-b317-4832d433e4a9">
+    <name>МесячныйОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячный оклад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb5cc747-f750-41fd-b31c-8e4ed2c81b69">
+    <name>УдержанияНДФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержания НДФЛ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

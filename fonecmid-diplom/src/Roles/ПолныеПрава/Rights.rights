@@ -2233,19 +2233,11 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>Automation</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>TechnicalSpecialistMode</name>
 			<value>false</value>
 		</right>
 		<right>
 			<name>ConfigurationExtensionsAdministration</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
 			<value>false</value>
 		</right>
 		<right>

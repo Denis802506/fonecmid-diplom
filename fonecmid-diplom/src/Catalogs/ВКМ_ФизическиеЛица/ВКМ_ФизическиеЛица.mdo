@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a171d6e4-f0fd-4939-9d6b-12a13c294678">
+  <producedTypes>
+    <objectType typeId="46208dfa-01b9-418a-8564-ad09e1a63762" valueTypeId="25c4bd5d-1ab9-499d-bca4-e86d37f8687a"/>
+    <refType typeId="89354d30-97be-4650-812f-4aed2554c08c" valueTypeId="394dc3e4-b3ca-4612-89f6-ab04fe6f1bd5"/>
+    <selectionType typeId="469aa1da-54e8-4a40-b79d-c1eb33dd83c6" valueTypeId="bcb4a996-ef47-406a-9979-a47bbffcc52a"/>
+    <listType typeId="58a4f61b-f25b-496a-8419-82035c5d4c8c" valueTypeId="e349808d-0873-4544-8f14-1d731b225fd5"/>
+    <managerType typeId="188c7e77-a166-4c5d-9f4a-58613d570659" valueTypeId="fafe6be9-4509-44a6-aa5c-5dc6f34f47d5"/>
+  </producedTypes>
+  <name>ВКМ_ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ФизическиеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_ФизическиеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c519bc86-1d40-41bc-84ae-3f78f721c09e">
+    <name>КатегорияСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория сотрудника</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_КлассификацияСотрудников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2340d928-7540-4011-837f-d875a1852b9c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

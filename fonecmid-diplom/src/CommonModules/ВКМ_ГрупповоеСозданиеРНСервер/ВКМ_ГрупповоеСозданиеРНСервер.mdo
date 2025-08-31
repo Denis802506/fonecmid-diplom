@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acf9af14-f6a8-4d15-b55d-dd38d8fe4305">
+  <name>ВКМ_ГрупповоеСозданиеРНСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое создание реализаций Сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

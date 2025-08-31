@@ -21,5 +21,6 @@
   <content>CommonModule.РегламентныеЗаданияКлиент</content>
   <content>CommonModule.БлокировкаРаботыСВнешнимиРесурсами</content>
   <content>CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый</content>
+  <content>ScheduledJob.ВКМ_ОтправкаСообщенияВТелеграмБот</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

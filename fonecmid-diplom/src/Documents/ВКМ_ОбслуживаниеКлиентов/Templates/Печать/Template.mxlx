@@ -18,37 +18,37 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>13</index>
+			<index>11</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>16</index>
+			<index>12</index>
 			<column>
 				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>18</index>
+			<index>13</index>
 			<column>
 				<formatIndex>4</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>12</index>
+			<index>14</index>
 			<column>
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>14</index>
+			<index>16</index>
 			<column>
 				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>11</index>
+			<index>18</index>
 			<column>
 				<formatIndex>7</formatIndex>
 			</column>
@@ -88,7 +88,7 @@
 		<columnsItem>
 			<index>2</index>
 			<column>
-				<formatIndex>5</formatIndex>
+				<formatIndex>3</formatIndex>
 			</column>
 		</columnsItem>
 		<columnsItem>
@@ -713,22 +713,22 @@
 		<width>16</width>
 	</format>
 	<format>
+		<width>70</width>
+	</format>
+	<format>
+		<width>1</width>
+	</format>
+	<format>
 		<width>50</width>
+	</format>
+	<format>
+		<width>88</width>
 	</format>
 	<format>
 		<width>63</width>
 	</format>
 	<format>
 		<width>86</width>
-	</format>
-	<format>
-		<width>1</width>
-	</format>
-	<format>
-		<width>88</width>
-	</format>
-	<format>
-		<width>70</width>
 	</format>
 	<format>
 		<width>640</width>
